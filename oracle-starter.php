@@ -43,7 +43,7 @@ if (!isset($_SESSION["username"])) {
             <input type="submit" value="View" name="character"></p>
         </form>
 
-        <h2>Show Artifacts By Set (SELECT)</h2>
+        <h2>Show Artifacts By Set</h2>
         <form method="GET" action="oracle-starter.php"> <!--refresh page when submitted-->
             <input type="hidden" id="selectRequest" name="selectRequest">
 
@@ -61,13 +61,13 @@ if (!isset($_SESSION["username"])) {
             <input type="submit" value="Filter" name="select"></p>
         </form>
 
-        <h2>Count Artifacts By Set (GROUP BY)</h2>
+        <h2>Count Artifacts By Set</h2>
         <form method="GET" action="oracle-starter.php"> <!--refresh page when submitted-->
             <input type="hidden" id="countTupleRequest" name="countTupleRequest">
             <p><input type="submit" value="Count" name="countTuples"></p>
         </form>
 
-        <h2>View Sets With Highest Quality Artifacts (NESTED)</h2>
+        <h2>View Sets With Highest Quality Artifacts</h2>
         <p>Shows sets with most number of 5 Star Artifacts.</p>
         <form method="GET" action="oracle-starter.php"> <!--refresh page when submitted-->
             <input type="hidden" id="nestRequest" name="nestRequest">
@@ -86,7 +86,7 @@ if (!isset($_SESSION["username"])) {
             <input type="submit" name="nest"></p>
         </form>
 
-        <h2>Find Your Best Artifact Sets (HAVING)</h2>
+        <h2>Find Your Best Artifact Sets</h2>
         <p>Finds all Artifact Sets (separated by quality) containing Stats above a certain threshold.</p>
         <form method="GET" action="oracle-starter.php"> <!--refresh page when submitted-->
             <input type="hidden" id="haveRequest" name="haveRequest">
@@ -94,7 +94,7 @@ if (!isset($_SESSION["username"])) {
             <p><input type="submit" value="Find" name="have"></p>
         </form>
 
-        <h2>Create A Character (INSERT)</h2>
+        <h2>Create A Character</h2>
         <form method="POST" action="oracle-starter.php"> <!--refresh page when submitted-->
             <input type="hidden" id="insertQueryRequest" name="insertQueryRequest">
 
@@ -166,7 +166,7 @@ if (!isset($_SESSION["username"])) {
             <input type="submit" value="Create New Character" name="insertSubmit"></p>
         </form>
 
-        <h2>Update Your Character's Artifacts (UPDATE)</h2>
+        <h2>Update Your Character's Artifacts</h2>
         <form method="POST" action="oracle-starter.php"> <!--refresh page when submitted-->
             <input type="hidden" id="updateQueryRequest" name="updateQueryRequest">
 
@@ -238,7 +238,7 @@ if (!isset($_SESSION["username"])) {
             <input type="submit" value="Update Existing Character" name="updateSubmit"></p>
         </form>
 
-        <h2>Delete a Character (DELETE)</h2>
+        <h2>Delete a Character</h2>
         <form method="GET" action="oracle-starter.php"> <!--refresh page when submitted-->
             <input type="hidden" id="deleteCharRequest" name="deleteCharRequest">
 
@@ -247,7 +247,7 @@ if (!isset($_SESSION["username"])) {
             <input type="submit" name="delete" value="Delete"> <br />
         </form>
 
-        <h2>Display Character Information (PROJECT)</h2>
+        <h2>Display Character Information</h2>
         <form method="GET" action="oracle-starter.php"> <!--refresh page when submitted-->
             <input type="hidden" id="projectRequest" name="projectRequest">
 
@@ -271,14 +271,14 @@ if (!isset($_SESSION["username"])) {
             <input type="submit" value="Show" name="project"></p>
         </form>
 
-        <h2>Check Character for Artifact Set Bonus (JOIN)</h2>
+        <h2>Check Character for Artifact Set Bonus</h2>
         <p>Shows whether a character has more than 2 Artifacts from the same set.</p>
         <form method="GET" action="oracle-starter.php"> <!--refresh page when submitted-->
             <input type="hidden" id="joinRequest" name="joinRequest">
             <p><input type="submit" value="Check" name="join"></p>
         </form>
 
-        <h2>Find Characters With All Artifacts Equipped (DIVISION)</h2>
+        <h2>Find Characters With All Artifacts Equipped</h2>
         <form method="GET" action="oracle-starter.php"> <!--refresh page when submitted-->
             <input type="hidden" id="divideRequest" name="divideRequest">
             <p><input type="submit" value="Find" name="divide"></p>
